@@ -1,0 +1,19 @@
+{
+  "name": "yin-yang",
+  "version": "2.0.0",
+  "description": "Complete rewrite of Yin Yang",
+  "main": "",
+  "author": "Danno3817",
+  "license": "MIT",
+  "scripts": {},
+  "homepage": "https://github.com:DetroitWhiskey136/Yin-Yang#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:DetroitWhiskey136/Yin-Yang.git"
+  },
+  "bugs": {
+    "url": "https://github.com:DetroitWhiskey136/Yin-Yang/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
