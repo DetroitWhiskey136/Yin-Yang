@@ -24,6 +24,7 @@
     "url": "https://github.com:DetroitWhiskey136/Yin-Yang/issues"
   },
   "dependencies": {
+    "@discordjs/opus": "^0.1.0",
     "abort-controller": "^3.0.0",
     "better-sqlite-pool": "github:eslachance/better-sqlite-pool",
     "better-sqlite3": "^6.0.1",
@@ -33,14 +34,21 @@
     "dotenv": "^8.0.0",
     "enmap": "^4.8.7",
     "erlpack": "github:discordapp/erlpack",
+    "ffmpeg-static": "^4.2.5",
+    "gamedig": "^2.0.21",
     "klaw": "^3.0.0",
+    "libsodium-wrappers": "^0.7.6",
     "module-alias": "^2.2.2",
     "moment": "^2.24.0",
     "moment-duration-format": "^2.3.2",
     "node-fetch": "^2.6.0",
     "readline-sync": "^1.4.9",
     "register-scheme": "github:devsnek/node-register-scheme",
+    "scrape-youtube": "^0.2.0",
     "utf-8-validate": "^5.0.2",
+    "ytdl-core": "^2.1.7",
+    "ytpl": "^0.1.21",
+    "ytsr": "^0.1.15",
     "zlib-sync": "^0.1.6"
   },
   "devDependencies": {

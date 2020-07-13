@@ -48,4 +48,6 @@ Only thing left to do is go to the data folder and edit the `config.js` file add
 
 You can now start the bot, `node .`
 
+`Note: I have not provided the dashboard for this project because i am going to be redoing it, I feel there may be some security issues regarding it so until that is sorted it will not be made public.`
+
 ~ Happy Coding ~

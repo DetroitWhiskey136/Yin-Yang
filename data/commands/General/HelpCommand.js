@@ -76,7 +76,7 @@ class HelpCommand extends Command {
         }
       });
       const links = [
-        `[Add This Bot](https://discordapp.com/oauth2/authorize?client_id=${client.id}&scope=bot&permissions=339078359)`,
+        '[Add This Bot](https://discordapp.com/oauth2/authorize?client_id=490408346365591554&scope=bot&permissions=339078359)',
         '[Redwing Bots](https://discord.gg/YCsVZua)',
         '[Dannos Guild](https://discord.gg/6aKBJQR)',
       ];

@@ -32,6 +32,8 @@ class YinYangClient {
     this.aliases = new Collection();
     this.events = new Collection();
 
+    this.music = new Collection();
+
     // load Commands/Events
     this.loadFiles('data/commands', 'commands');
     this.loadFiles('data/events', 'events');

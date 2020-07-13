@@ -31,4 +31,29 @@ module.exports = {
     botadmin: 'Bot Admin',
     botowner: 'Bot Owner',
   },
+  REDI_REASONS: {
+    KICKS: [
+      'Imagine getting Dan00ted out of a server. Can\'t relate.',
+      'Sayonara {{tag}}',
+      'Heh, i guess ur a goner now. Well. Hopefully you can find your way back here.',
+      'Eye spy my little eye, something that looks like a kick.',
+      'You have been dan00ted from the server for an undefined amount of time.',
+      'Here. have a free kick, it\'s on the house',
+      '{{tag}} dropped the soap.',
+      '#IGotBeamedFromADevBotLol!',
+      'Thy mighty Dan00t Gods have summoned a minion to throw you away!',
+    ],
+    BANS: [
+      'Imagine getting Dan00ted out of a server. Can\'t relate.',
+      'Sayonara {{tag}}',
+      'Heh, i guess ur a goner now. Well. Hopefully you can find your way back home.',
+      'Eye spy my little eye, something that looks like a ban.',
+      'You have been dan00ted from the server for an infinite amount of time.',
+      'Here. have a free ban, it\'s on the house',
+      '{{tag}} dropped the soap.',
+      '#IGotBeamedFromADevBotLol!',
+      'Thy mighty Dan00t Gods have summoned a minion to throw you away!',
+
+    ],
+  },
 };
