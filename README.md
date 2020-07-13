@@ -38,6 +38,12 @@ Setup .env:
 
 Open the `.env` in your text editor of choice and fill in the required information. (I plan on making an installer one day for this)
 
+Setup config.js:
+```
+  Windows: copy data/config.js.example data/config.js
+  Linux: cp data/config.js.example data/config.js
+```
+
 Only thing left to do is go to the data folder and edit the `config.js` file adding your `userID` into the bot admins array.
 
 You can now start the bot, `node .`

@@ -13,3 +13,4 @@ data/enmap_data/*
 
 # Other
 data/logs/*
+data/config.js
