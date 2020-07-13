@@ -7,7 +7,7 @@ class RestartCommand extends Command {
       description: 'If running the bot with pm2 bot will restart, otherwise stops the bot.',
       category: 'Developer',
       usage: 'restart',
-      permLevel: 'botowner',
+      permLevel: 'botadmin',
       aliases: ['reboot', 'power'],
       guildOnly: true,
     });

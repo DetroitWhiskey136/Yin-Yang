@@ -1,7 +1,7 @@
 /* eslint-disable max-len, max-depth, no-unused-vars*/
 
 const { Command, Embed } = require('@structures');
-const { Constants, GuildUtils, Logger, MemberUtils, Music, RoleUtils, StringUtil, Utils } = require('@utils');
+const { Constants, GuildUtils, Logger, MemberUtils, RoleUtils, StringUtil, Utils } = require('@utils');
 const manager = require('@discord/Manager');
 const { isEmpty, isPromise } = Utils;
 const { code } = StringUtil;
