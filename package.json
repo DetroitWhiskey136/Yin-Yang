@@ -1,11 +1,20 @@
 {
   "name": "yin-yang",
   "version": "2.0.0",
-  "description": "Complete rewrite of Yin Yang",
-  "main": "",
+  "description": "This bot is built on the sugar class syntax with nodejs and discord.js",
+  "main": "src/bot.js",
   "author": "Danno3817",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint src",
+    "dev": "nodemon . -- watch src"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "yin yang"
+  ],
   "homepage": "https://github.com:DetroitWhiskey136/Yin-Yang#readme",
   "repository": {
     "type": "git",
@@ -14,6 +23,41 @@
   "bugs": {
     "url": "https://github.com:DetroitWhiskey136/Yin-Yang/issues"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "better-sqlite-pool": "github:eslachance/better-sqlite-pool",
+    "better-sqlite3": "^6.0.1",
+    "bufferutil": "^4.0.1",
+    "discord.js": "^12.0.2",
+    "discord.js-docs": "^0.1.2",
+    "dotenv": "^8.0.0",
+    "enmap": "^4.8.7",
+    "erlpack": "github:discordapp/erlpack",
+    "klaw": "^3.0.0",
+    "module-alias": "^2.2.2",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "node-fetch": "^2.6.0",
+    "readline-sync": "^1.4.9",
+    "register-scheme": "github:devsnek/node-register-scheme",
+    "utf-8-validate": "^5.0.2",
+    "zlib-sync": "^0.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
+  "_moduleAliases": {
+    "@root": "src",
+    "@database": "src/database",
+    "@models": "src/database/models",
+    "@permissions": "src/permissions",
+    "@structures": "src/structures",
+    "@command": "src/structures/command",
+    "@discord": "src/structures/discord",
+    "@event": "src/event",
+    "@utils": "src/utils",
+    "@commands": "data/commands",
+    "@events": "data/events"
+  }
 }

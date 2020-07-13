@@ -1,0 +1,18 @@
+/* eslint-disable max-len */
+const config = {
+  /**
+   * Bot Admins, level 9 by default.
+   * *beware this gives access to eval*
+   * Array of user ID Strings
+   */
+  admins: [],
+
+  /**
+   * Bot Support, Level 8 by default.
+   *
+   * Array of user ID strings
+   */
+  support: [],
+};
+
+module.exports = config;

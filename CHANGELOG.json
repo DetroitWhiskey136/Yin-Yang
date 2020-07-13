@@ -1,0 +1,9 @@
+{
+  "latest": [
+    "~ playlists are now supported",
+    "~ Updated bot info command",
+    "~ fixed vote skip, votes were not being handled.",
+    "~ Ignore the vote skip if members are < 5 - bot",
+    "~ Todo fixed you now delete and add todos with relative ease -_- this command is useless"
+  ]
+}

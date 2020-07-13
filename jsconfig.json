@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target" :"es2020",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "@root/*": ["src/*"],
+        "@database/*": ["src/database/*"],
+          "@models/*": ["src/database/models/*"],
+        "@permissions/*": ["src/permissions/*"],
+        "@structures/*": ["src/structures/*"],
+          "@command/*": ["src/structures/command/*"],
+          "@discord/*": ["src/structures/discord/*"],
+          "@event/*": ["src/structures/event/*"],
+        "@utils/*": ["src/utils/*"],
+      "@commands/*": ["data/commands/*"],
+      "@events/*": ["data/events/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
